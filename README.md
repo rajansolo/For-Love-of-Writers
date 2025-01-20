@@ -62,7 +62,7 @@ Prerequisites
 
 - Navigate to the project folder:
 
-- cd LOW
+- cd For-Love-of-Writers 
 
 - Open home.html in your browser:
 
