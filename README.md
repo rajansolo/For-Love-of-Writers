@@ -58,15 +58,15 @@ Prerequisites
 
 ### Clone the repository:
 
-- git clone https://github.com/rajansolo/The-Love-For-Writing
+- git clone https://github.com/rajansolo/For-Love-of-Writers
 
 - Navigate to the project folder:
 
 - cd LOW
 
-- Open index.html in your browser:
+- Open home.html in your browser:
 
-- Without a server: Double-click the index.html file.
+- Without a server: Double-click the home.html file.
 
 - With a server: Use any local server (e.g., Live Server in VS Code).
 
