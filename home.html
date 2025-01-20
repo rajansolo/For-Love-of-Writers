@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOW</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/" type="image/svg+xml">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">WriteFlow</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list container">
+          <li><a href="#home" class="navbar-link active" data-nav-link>Home</a></li>
+          <li><a href="#features" class="navbar-link" data-nav-link>Features</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+          <li>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- HERO SECTION -->
+      <section class="section hero" aria-label="hero" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Welcome to WriteFlow</h1>
+            <p class="section-text">
+              Transform your writing experience with cutting-edge tools and a seamless interface designed for creativity.
+            </p>
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="769" height="804" alt="hero banner" class="w-100">
+          </figure>
+        </div>
+      </section>
+
+      <!-- FEATURES SECTION -->
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+          <p class="section-subtitle">App Features</p>
+          <h2 class="h2 section-title">Discover Amazing Tools</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <div class="features-card">
+                <div class="card-icon">
+                  <ion-icon name="create-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Intuitive Editing</h3>
+                <p class="card-text">Simplify your workflow with our user-friendly editing tools.</p>
+              </div>
+            </li>
+            <li class="features-item">
+              <div class="features-card">
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Top-notch Security</h3>
+                <p class="card-text">Your data is protected with state-of-the-art encryption.</p>
+              </div>
+            </li>
+            <li class="features-item">
+              <div class="features-card">
+                <div class="card-icon">
+                  <ion-icon name="settings-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Efficient Management</h3>
+                <p class="card-text">Manage projects effortlessly with streamlined features.</p>
+              </div>
+            </li>
+            <li class="features-item">
+              <div class="features-card">
+                <div class="card-icon">
+                  <ion-icon name="cube-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Free Trial Available</h3>
+                <p class="card-text">Explore all features with no commitment during the trial.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="1262" height="1357" loading="lazy" alt="about banner" class="w-100">
+          </figure>
+          <div class="about-content">
+            <h2 class="h2 section-title">Why Choose WriteFlow?</h2>
+            <p class="section-text">Experience the perfect blend of innovation and simplicity in one platform.</p>
+            <ul class="about-list">
+              <li class="about-item">
+                <div class="item-icon">
+                  <ion-icon name="folder" aria-hidden="true"></ion-icon>
+                </div>
+                <div>
+                  <h3 class="h3 item-title">Elegant Design</h3>
+                  <p class="item-text">Our platform is crafted for both aesthetics and functionality.</p>
+                </div>
+              </li>
+              <li class="about-item">
+                <div class="item-icon">
+                  <ion-icon name="pie-chart" aria-hidden="true"></ion-icon>
+                </div>
+                <div>
+                  <h3 class="h3 item-title">Data Management Simplified</h3>
+                  <p class="item-text">Organize and access your data effortlessly with our tools.</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="contact">
+        <div class="contact-container">
+          <h2>Contact Us</h2>
+          <p>Have questions? Reach out and let us help you get started!</p>
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name">
+              <span class="error-message" data-error="name"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com">
+              <span class="error-message" data-error="email"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea>
+              <span class="error-message" data-error="message"></span>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+            <div id="successMessage" class="success-message hidden">Thank you for your message! We'll get back to you soon.</div>
+          </form>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- BACK TO TOP BUTTON -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- Scripts -->
+  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/contact.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
