@@ -1,4 +1,4 @@
-# LOW Web Project
+# For Love of Writers Web Project
 
 ### 1. This project is a responsive and visually engaging website designed to showcase features, provide information, and enable user interaction through a contact form. The project integrates modern front-end technologies, a structured layout, and dynamic functionality.
 
